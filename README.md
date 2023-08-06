@@ -138,25 +138,26 @@
    
 3. Doclaynet-base dataset
 
-  ```sh
+   ```sh
    @article{doclaynet2022,
-  title = {DocLayNet: A Large Human-Annotated Dataset for Document-Layout Segmentation},
-  doi = {10.1145/3534678.353904},
-  url = {https://doi.org/10.1145/3534678.3539043},
-  author = {Pfitzmann, Birgit and Auer, Christoph and Dolfi, Michele and Nassar, Ahmed S and Staar, Peter W J},
-  year = {2022},
-  isbn = {9781450393850},
-  publisher = {Association for Computing Machinery},
-  address = {New York, NY, USA},
-  booktitle = {Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
-  pages = {3743–3751},
-  numpages = {9},
-  location = {Washington DC, USA},
-  series = {KDD '22}
-  }
+    title = {DocLayNet: A Large Human-Annotated Dataset for Document-Layout Segmentation},
+    doi = {10.1145/3534678.353904},
+    url = {https://doi.org/10.1145/3534678.3539043},
+    author = {Pfitzmann, Birgit and Auer, Christoph and Dolfi, Michele and Nassar, Ahmed S and Staar, Peter W J},
+    year = {2022},
+    isbn = {9781450393850},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    booktitle = {Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+    pages = {3743–3751},
+    numpages = {9},
+    location = {Washington DC, USA},
+    series = {KDD '22}
+    }
    ```
 
 4. XFUND dataset
+   
    ```sh
    @inproceedings{xu-etal-2022-xfund,
     title = "{XFUND}: A Benchmark Dataset for Multilingual Visually Rich Form Understanding",
@@ -177,8 +178,7 @@
     doi = "10.18653/v1/2022.findings-acl.253",
     pages = "3214--3224",
     abstract = "Multimodal pre-training with text, layout, and image has achieved SOTA performance for visually rich document understanding tasks recently, which demonstrates the great potential for joint learning across different modalities. However, the existed research work has focused only on the English domain while neglecting the importance of multilingual generalization. In this paper, we introduce a human-annotated multilingual form understanding benchmark dataset named XFUND, which includes form understanding samples in 7 languages (Chinese, Japanese, Spanish, French, Italian, German, Portuguese). Meanwhile, we present LayoutXLM, a multimodal pre-trained model for multilingual document understanding, which aims to bridge the language barriers for visually rich document understanding. Experimental results show that the LayoutXLM model has significantly outperformed the existing SOTA cross-lingual pre-trained models on the XFUND dataset. The XFUND dataset and the pre-trained LayoutXLM model have been publicly available at https://aka.ms/layoutxlm.",
-}
-
+    }
    ```
 
 <!-- CONTACT -->
