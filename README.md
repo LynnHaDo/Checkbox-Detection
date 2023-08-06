@@ -91,7 +91,9 @@
    pip install ultralytics
    pip install gradio
    ```
-3. Dataset (currently not publicly available)
+3. Dataset:
+   - Source documents: RVL-CDIP
+   - Checkboxes images: currently not publicly available
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
