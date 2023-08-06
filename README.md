@@ -70,12 +70,17 @@
 <!-- GETTING STARTED -->
 ### Prerequisites
 
+#### For generating data
 1. opencv-python
 2. matplotlib
 3. numpy
 4. albumentations
-5. ultralytics
-6. gradio
+
+#### For training
+1. ultralytics
+2. gradio
+3. torch
+4. ruamel
 
 ### Installation
 
@@ -94,6 +99,8 @@
    pip install albumentations
    pip install ultralytics
    pip install gradio
+   pip install torch
+   pip install ruamel
    ```
 3. Dataset:
 
