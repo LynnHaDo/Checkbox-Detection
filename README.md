@@ -54,6 +54,7 @@
 ## About The Project
 
 <img src="demo/image.png" height=640 align = "center"/>
+<img src="demo/image_1.png" height=640 align = "center"/>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
