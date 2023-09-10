@@ -72,7 +72,7 @@ Although the idea of using the Copy-Paste technique in augmenting data is simple
     0 0.0456885 0.8305 0.032175 0.027
 ```
 
-In the end, under the supervision and mentorship of my advisor, I was able to achieve notable inference results, with the model achieving relatively high precision and recall rates after ~100 epochs. 
+The model was trained on a GPU P100 for 200 epochs. In the end, under the supervision and mentorship of my advisor, I was able to achieve notable inference results, with the model achieving relatively high precision and recall rates after ~100 epochs. 
 
 <img src="demo/image.png" height=640 align = "center"/>
 <img src="demo/image_1.png" height=640 align = "center"/>
