@@ -52,6 +52,28 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+The biggest challenge when I approach this problem is the lack of public datasets that contain documents with checkbox annotations. There are only either images of checkboxes alone, or images of scanned documents. As a result, the solution comes down to generating a sufficiently large annotated dataset of document with checkboxes. 
+
+Although the idea of using the Copy-Paste technique in augmenting data is simple, how to make that augmented dataset works well with the existing YOLO architecture is the most difficult part, which takes a lot of trial and error. Throughout this process, I experimented with different ways to paste the checkboxes onto the documents, which include pasting boxes contiguously in horizontal and vertical directions, pasting distractors, adding "background" images, pasting while also avoiding text blocks (using the Document Layout Analysis model I created), etc. I ended with over 10,000 images for the training dataset, and to test the model's performance, an additional 150 human-annotated documents are used as the validation dataset. The annotations are in YOLO format (normalized bounding boxes).
+
+<img src="demo/document.png" height=640 align = "center" />
+
+```sh
+    1 0.402831 0.965 0.048906 0.032
+    0 0.904762 0.856 0.018018 0.014
+    0 0.189189 0.7005 0.036036 0.029
+    0 0.388031 0.2395 0.037323 0.029
+    1 0.0199485 0.2185 0.037323 0.029
+    1 0.741313 0.96 0.046332 0.032
+    1 0.677606 0.1045 0.047619 0.041
+    0 0.956242 0.9045 0.041184 0.033
+    1 0.838481 0.6575 0.037323 0.029
+    1 0.837838 0.514 0.03861 0.03
+    0 0.0456885 0.8305 0.032175 0.027
+```
+
+In the end, under the supervision and mentorship of my advisor, I was able to achieve notable inference results, with the model achieving relatively high precision and recall rates after ~100 epochs. 
+
 <img src="demo/image.png" height=640 align = "center"/>
 <img src="demo/image_1.png" height=640 align = "center"/>
 
