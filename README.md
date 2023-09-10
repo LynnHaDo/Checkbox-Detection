@@ -56,7 +56,7 @@ The biggest challenge when I approach this problem is the lack of public dataset
 
 Although the idea of using the Copy-Paste technique in augmenting data is simple, how to make that augmented dataset works well with the existing YOLO architecture is the most difficult part, which takes a lot of trial and error. Throughout this process, I experimented with different ways to paste the checkboxes onto the documents, which include pasting boxes contiguously in horizontal and vertical directions, pasting distractors, adding "background" images, pasting while also avoiding text blocks (using the Document Layout Analysis model I created), etc. I ended with over 10,000 images for the training dataset, and to test the model's performance, an additional 150 human-annotated documents are used as the validation dataset. The annotations are in YOLO format (normalized bounding boxes).
 
-<img src="demo/document.png" height=640 align = "center" />
+<img src="demo/10_letter.jpg" height=640 align = "center" />
 
 ```sh
     1 0.402831 0.965 0.048906 0.032
