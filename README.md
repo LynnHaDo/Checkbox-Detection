@@ -32,6 +32,9 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
+      <a href="#updates">Updates</a>
+    </li>
+    <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
@@ -48,6 +51,11 @@
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
+
+<!-- UPDATES -->
+## Updates 
+
+In this project, I provided 2 models (classification and detection models) trained on the existing YOLOv8 weights. They are uploaded in my [Hugging Face Space](https://huggingface.co/spaces/linhdo/checkbox-detector) of the project. If you feel the need to use or modify the models in any parts of your work, please cite this repository. Thank you!
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
