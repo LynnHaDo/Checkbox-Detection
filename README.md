@@ -55,7 +55,7 @@
 <!-- UPDATES -->
 ## Updates 
 
-In this project, I provided 2 models (classification and detection models) trained on the existing YOLOv8 weights. They are uploaded in my [Hugging Face Space](https://huggingface.co/spaces/linhdo/checkbox-detector) of the project. If you feel the need to use or fine-tune the models in any parts of your work, please cite this repository. Thank you!
+In this project, I provided 2 models (classification and detection models) trained on the existing YOLOv8 weights. They are uploaded in my [Hugging Face Space](https://huggingface.co/spaces/linhdo/checkbox-detector) of the project. If you feel the need to use or fine-tune the models in any parts of your work, please cite this repository. Thank you, and don't forget to give this repo a 🌟!
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
