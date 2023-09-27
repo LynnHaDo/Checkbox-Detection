@@ -1,0 +1,28 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Checkbox Detection Baseline Model
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Linh
+    family-names: Do
+    email: do24l@mtholyoke.edu
+identifiers:
+  - type: url
+    value: >-
+      https://huggingface.co/spaces/linhdo/checkbox-detector/blob/main/models/detector-model.pt
+    description: Checkbox Detection Model
+repository-code: 'https://github.com/LynnHaDo/Checkbox-Detection'
+url: 'https://huggingface.co/spaces/linhdo/checkbox-detector'
+abstract: A baseline detection model of checkboxes
+keywords:
+  - object-detection
+  - deep-learning
+  - computer-vision
+license: MIT
+commit: 0f4c0d6
+date-released: '2023-08-06'
