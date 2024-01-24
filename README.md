@@ -90,7 +90,7 @@ The model was trained on a GPU P100 for 200 epochs. In the end, under the superv
 
 ### Built With
 
-* [YOLOv8](https://ultralytics.com/yolov8)
+* [YOLOv8](https://ultralytics.com/yolov8): 8.0.136
 * [Gradio](https://www.gradio.app/)
 * [Hugging Face Space](https://huggingface.co/spaces)
 * [Kaggle](https://www.kaggle.com/)
