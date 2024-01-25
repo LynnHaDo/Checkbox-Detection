@@ -90,7 +90,7 @@ The model was trained on a GPU P100 for 200 epochs. In the end, under the superv
 
 ### Built With
 
-* [YOLOv8](https://ultralytics.com/yolov8): 8.0.136
+* [YOLOv8](https://ultralytics.com/yolov8): 8.0.153
 * [Gradio](https://www.gradio.app/)
 * [Hugging Face Space](https://huggingface.co/spaces)
 * [Kaggle](https://www.kaggle.com/)
@@ -101,13 +101,13 @@ The model was trained on a GPU P100 for 200 epochs. In the end, under the superv
 ### Prerequisites
 
 #### For generating data
-1. opencv-python
-2. matplotlib
-3. numpy
-4. albumentations
+1. opencv-python: 4.7.0
+2. matplotlib: 3.7.1
+3. numpy: 1.25.2
+4. albumentations: 1.3.1
 
 #### For training
-1. ultralytics
+1. ultralytics: 8.0.153
 2. gradio
 3. torch
 4. ruamel
